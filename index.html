@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="gameContainer">
+
+        <h2>Total moves: <span id="moves">0</span></h2>
+
+        <div id="gameBoard"></div>
+
+    </div>
+    <div id="gameOver">
+        <div>
+            Congratulations, you completed the game!
+        </div>
+        <div id="ranking">
+            <table>
+                <tr>
+                    <td><img class="icon" src="./images/first-place.png"></td>
+                    <td id="place1"></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="./images/second-place.png"></td>
+                    <td id="place2"></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="./images/third-place.png"></td>
+                    <td id="place3"></td>
+                </tr>
+            </table>
+        </div>
+        <button id="restart" onclick="restart()">Restart</button>
+    </div>
+</body>
+<script src="./scripts/game.js"></script>
+<script src="./scripts/script.js"></script>
+
+</html>
