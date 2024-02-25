@@ -4,7 +4,7 @@ Welcome to the Memory Game of Technologies! This is a simple and fun game to tes
 
 ## How to Play 🕹️
 
-1. Open the [game](https://eduardapontel.github.io/memory-game/) link in your preferred browser.
+1. Open the [game link](https://eduardapontel.github.io/memory-game/) in your preferred browser.
 2. You'll see a grid of cards face down.
 3. Click on two cards to reveal their matching technologies.
 4. If the technologies of the two cards match, they will stay face up. Otherwise, they will be turned face down again.
