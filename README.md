@@ -32,4 +32,4 @@ At the end of the game, a ranking of the top three rounds will be displayed, sho
 
 ## How to Contribute 🤝
 
-If you'd like to contribute to this game, feel free to send pull requests or open issues on the [GitHub repository](https://github.com/eduardapontel/memory-game).
+If you'd like to contribute to this game, feel free to send pull requests or open issues.
