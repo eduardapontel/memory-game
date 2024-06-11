@@ -18,10 +18,10 @@ function startGame() {
     initializeCards(game.cards);
 }
 
-function initializeCards() {
+function initializeCards(cards) {
     let gameBoard = document.getElementById('gameBoard');
     gameBoard.innerHTML = '';
-    for (card of game.cards) {
+    for (let card of cards) {
         let cardElement = document.createElement('div');
         cardElement.id = card.id;
         cardElement.classList.add(CARD);
@@ -86,18 +86,10 @@ function showMoves() {
 }
 
 function getRanking() {
-    game.positions.add(game.moves);
-
-    let positionsArray = [...game.positions];
-
-    positionsArray.sort((a, b) => {
-        return a - b;
-    });
-
+    game.calculateRanking();
     for (let i = 1; i < 4; i++) {
-        localStorage.setItem(`place${i}`, positionsArray[i - 1]);
         let rankingMoves = localStorage.getItem(`place${i}`);
-        rankingMoves != 'undefined' ? (rankingMoves += ' moves') : (rankingMoves = '-');
+        rankingMoves != 'undefined' ? (rankingMoves += ' jogadas') : (rankingMoves = '-');
         document.getElementById(`place${i}`).innerHTML = `${rankingMoves}`;
     }
 }
