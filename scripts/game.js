@@ -22,7 +22,7 @@ let game = {
 
     createCardsFromTechs: function () {
         this.cards = [];
-        for (tech of this.techs) {
+        for (let tech of this.techs) { // add 'let' for block scope
             this.cards.push(this.createPairFromTech(tech));
         }
         this.cards = this.cards.flatMap((pair) => pair);
@@ -102,4 +102,15 @@ let game = {
         this.secondCard.flipped = false;
         this.clearCards();
     },
+
+    calculateRanking: function () {
+        this.positions.add(this.moves);
+
+        let positionsArray = [...this.positions];
+        positionsArray.sort((a, b) => a - b);
+
+        for (let i = 1; i < 4; i++) {
+            localStorage.setItem(`place${i}`, positionsArray[i - 1]);
+        }
+    }
 };
