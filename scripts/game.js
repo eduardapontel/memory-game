@@ -22,7 +22,7 @@ let game = {
 
     createCardsFromTechs: function () {
         this.cards = [];
-        for (let tech of this.techs) { // add 'let' for block scope
+        for (let tech of this.techs) {
             this.cards.push(this.createPairFromTech(tech));
         }
         this.cards = this.cards.flatMap((pair) => pair);
