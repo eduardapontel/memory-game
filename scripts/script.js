@@ -89,7 +89,7 @@ function getRanking() {
     game.calculateRanking();
     for (let i = 1; i < 4; i++) {
         let rankingMoves = localStorage.getItem(`place${i}`);
-        rankingMoves != 'undefined' ? (rankingMoves += ' jogadas') : (rankingMoves = '-');
+        rankingMoves != 'undefined' ? (rankingMoves += ' moves') : (rankingMoves = '-');
         document.getElementById(`place${i}`).innerHTML = `${rankingMoves}`;
     }
 }
