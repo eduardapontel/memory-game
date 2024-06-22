@@ -17,9 +17,9 @@ At the end of the game, a ranking of the top three rounds will be displayed, sho
 
 ## Technologies Used
 
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ## How to Contribute 🤝
 
