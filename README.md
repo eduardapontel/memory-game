@@ -11,24 +11,15 @@ Welcome to the Memory Game of Technologies! This is a simple and fun game to tes
 5. Continue flipping cards until you find all pairs of technologies.
 6. The game ends when all pairs are found.
 
-## Card Icons 🚀
-
-The icons featured on the cards in this game include the following technologies:
-
-- Bootstrap
-- CSS
-- Electron
-- Firebase
-- HTML
-- JavaScript
-- jQuery
-- MongoDB
-- Node.js
-- React
-
 ## Top 3 Ranking 🏆
 
 At the end of the game, a ranking of the top three rounds will be displayed, showing the rounds that were completed with the fewest moves. Try to reach the top of the ranking!
+
+## Technologies Used
+
+HTML5
+CSS3
+JavaScript
 
 ## How to Contribute 🤝
 
