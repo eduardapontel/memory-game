@@ -21,6 +21,17 @@ At the end of the game, a ranking of the top three rounds will be displayed, sho
 - CSS3
 - JavaScript
 
+## Project Structure
+
+- `images/` - Contains game images and icons.
+- `scripts/`
+    - `game.js` - Contains game logic.
+    - `script.js` - Script for game interaction.
+- `styles/`
+  - `style.css` - Contains styles for the game.
+- `index.html` - Main HTML file.
+
+
 ## How to Contribute 🤝
 
 If you'd like to contribute to this game, feel free to send pull requests or open issues.
