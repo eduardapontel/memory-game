@@ -13,7 +13,7 @@ Welcome to the Memory Game of Technologies! This is a simple and fun game to tes
 
 ## Top 3 Ranking 🏆
 
-At the end of the game, a ranking of the top three rounds will be displayed, showing the rounds that were completed with the fewest moves. Try to reach the top of the ranking!
+At the end of the game, a ranking of the top three rounds will be displayed, showing the rounds that were completed with the fewest moves. If you want to play again and improve your score, simply click the "Restart" button to reset the game.
 
 ## Technologies Used
 
